@@ -1,0 +1,27 @@
+{
+  "name": "react-package-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.min.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "NODE_ENV=production npm run clean && webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "react": "15.6.1",
+    "rimraf": "2.6.1",
+    "style-loader": "0.18.2",
+    "webpack": "3.5.4"
+  }
+}
